@@ -1,25 +1,25 @@
 # bio-ejector-5x-cnc-klipper
 
-Firmware and host-side configuration (C/Python) for a custom 5-axis CNC system with integrated air ejector, based on the Klipper motion control framework.  
+Firmware and host-side configuration (C/Python) for a custom 5-axis CNC system with integrated air ejector, based on the Klipper-CNC motion control framework.  
 This system is designed to support advanced automation tasks in biomedical and precision manufacturing contexts.
 
 ---
 
-## 🚧 Status
+#Status
 
 This project is in early development. Documentation and source code will be updated as the design matures.
 
 ---
 
-## ⚠️ Note
+#Note
 
-Some aspects of this system may be subject to future patent applications. Please do **not redistribute or publish** without written permission from the project owner.
+Some aspects of this system is under patent applications. Please do **not redistribute or publish** without written permission from the project owner.
 
 ---
 
-## 🔧 Features (Planned)
+#Features (Planned)
 
-- 5-axis motion support using Klipper
+- 5-axis motion support using Klipper-CNC
 - Real-time air ejector control
 - Modular kinematics configuration
 - Integration with host-side Python control scripts
@@ -27,7 +27,7 @@ Some aspects of this system may be subject to future patent applications. Please
 
 ---
 
-## 📂 Repository Structure
+#Repository Structure
 
 - `firmware/` – microcontroller firmware (C)
 - `host/` – Klipper host code modifications (Python)
