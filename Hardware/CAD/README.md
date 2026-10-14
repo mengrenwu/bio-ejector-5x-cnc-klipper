@@ -9,7 +9,7 @@ CAD models and mechanical drawings for the five-axis CNC system, organized by co
 | [BeltDrivenLinearStages](BeltDrivenLinearStages/README.md) | Belt-driven linear motion assemblies and their components. |
 | [LeadScrewStages](LeadScrewStages/README.md) | Lead screw-driven linear motion assemblies and their components. |
 
-STL models are currently available in `Holders/` and `LeadScrewStages/`. The other folders are reserved for future designs.
+STL models are available in all four component folders listed above.
 
 ## Downloading Models
 
