@@ -6,7 +6,7 @@ Bio-Ejector 5-Axis CNC with Klipper is a custom five-axis CNC project with an in
 
 ## Development Status
 
-This project is in early development. The repository currently contains Klipper configuration files, a GUI placeholder, and folders reserved for hardware designs. Documentation and source code will be updated as the design matures.
+This project is in early development. The repository currently contains Klipper configuration files, a GUI placeholder, STL models for holders and a Z-axis stage, and folders reserved for additional hardware designs. Documentation and source code will be updated as the design matures.
 
 ## Planned Features
 

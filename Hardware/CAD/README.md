@@ -9,4 +9,13 @@ CAD models and mechanical drawings for the five-axis CNC system, organized by co
 | [BeltDrivenLinearStages](BeltDrivenLinearStages/README.md) | Belt-driven linear motion assemblies and their components. |
 | [LeadScrewStages](LeadScrewStages/README.md) | Lead screw-driven linear motion assemblies and their components. |
 
-Design files have not been added yet.
+STL models are currently available in `Holders/` and `LeadScrewStages/`. The other folders are reserved for future designs.
+
+## Downloading Models
+
+STL files are tracked with Git Large File Storage (Git LFS). With Git LFS installed, run these commands from the repository root to download the model files:
+
+```sh
+git lfs install --local
+git lfs pull
+```

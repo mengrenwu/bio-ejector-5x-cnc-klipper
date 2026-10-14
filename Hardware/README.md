@@ -10,4 +10,4 @@ Mechanical design resources for the five-axis CNC system and air ejector assembl
 | [Belt-Driven Linear Stages](CAD/BeltDrivenLinearStages/README.md) | Belt-driven linear motion assemblies and their components. |
 | [Lead Screw Stages](CAD/LeadScrewStages/README.md) | Lead screw-driven linear motion assemblies and their components. |
 
-Design files have not been added yet.
+STL models are available in [Holders](CAD/Holders/README.md) and [Lead Screw Stages](CAD/LeadScrewStages/README.md). See the [CAD documentation](CAD/README.md) for Git LFS download instructions.
