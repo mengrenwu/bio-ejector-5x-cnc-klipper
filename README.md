@@ -1,47 +1,37 @@
-# bio-ejector-5x-cnc-klipper
+# Bio-Ejector 5-Axis CNC with Klipper
 
-Firmware and host-side configuration (C/Python) for a custom 5-axis CNC system with integrated air ejector, based on the Klipper-CNC motion control framework.  
-This system is designed to support advanced automation tasks in biomedical and precision manufacturing contexts.
+Klipper configuration and project resources for a custom five-axis CNC system with an integrated air ejector, intended for biomedical and precision manufacturing workflows.
 
----
+This project is in early development.
 
-#Status
+## Repository Structure
 
-This project is in early development. Documentation and source code will be updated as the design matures.
+The repository is organized into four main folders:
 
----
+```text
+bio-ejector-5x-cnc-klipper/
+|-- Hardware/
+|   `-- CAD/
+|       |-- Holders/
+|       |-- StructuralComponents/
+|       |-- BeltDrivenLinearStages/
+|       `-- LeadScrewStages/
+|-- Software/
+|   `-- GUI/
+|-- Firmware/
+|   `-- config/
+`-- Documentation/
+```
 
-#Note
+| Folder | Contents |
+| --- | --- |
+| [Hardware](Hardware/README.md) | CAD models, mechanical designs, and holder designs. |
+| [Software](Software/README.md) | GUI development and future host-side control software. |
+| [Firmware](Firmware/README.md) | Klipper machine configuration and control macros. |
+| [Documentation](Documentation/README.md) | Project overview, development status, and usage documentation. |
 
-Some aspects of this system is under patent applications. Please do **not redistribute or publish** without written permission from the project owner.
+Start with the [project documentation](Documentation/README.md) for the current scope and development status.
 
----
+## Project Notice
 
-#Features (Planned)
-
-- 5-axis motion support using Klipper-CNC
-- Real-time air ejector control
-- Modular kinematics configuration
-- Integration with host-side Python control scripts
-- Designed for high-throughput biomedical workflows
-
----
-
-#Repository Structure
-
-- `firmware/` – microcontroller firmware (C)
-- `host/` – Klipper host code modifications (Python)
-- `config/` – machine and kinematics configuration
-- `hardware/` – CAD files and mechanical documentation (optional)
-
----
-
-## 🧪 Usage
-
-Coming soon.
-
----
-
-## Contact
-
-For collaboration or inquiries, contact the repository owner directly.
+Some aspects of this system are covered by pending patent applications. Please do **not redistribute or publish** without written permission from the project owner.
